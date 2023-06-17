@@ -1,0 +1,34 @@
+:root {
+    --font-family: 'Inter', sans-serif;
+    --background-color: #eee;
+    --border-color: #eee;
+    --btn-color: #007456;
+    --primary-color: #111111;
+    --filter-heading: #999;
+    --text-color: #555555;
+    --option-color: #007456;
+}
+
+*:focus {
+    outline: none !important
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.signupimg {
+    background-image: url('../Assets/Signupimg.jpg');
+    background-size: cover;
+    height: 780px;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:425px) {
+    .signupimg {
+        background-image: url('../Assets/Signupimg.jpg');
+        background-size: cover;
+       height: 160vh;
+        background-repeat: no-repeat;
+    }
+}
